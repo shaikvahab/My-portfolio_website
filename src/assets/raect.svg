@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="45" fill="#61DAFB" />
+  
+  <!-- 3D Effect for the Circle -->
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#000" stroke-opacity="0.2" stroke-width="5" />
+  <circle cx="52" cy="52" r="45" fill="none" stroke="#fff" stroke-opacity="0.2" stroke-width="5" />
+
+  <!-- React Atom Symbol -->
+  <g transform="translate(50, 50)">
+    <!-- Central Dot -->
+    <circle cx="0" cy="0" r="6" fill="#000" />
+    
+    <!-- Orbit 1 -->
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#000" stroke-width="3" transform="rotate(30)" />
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#000" stroke-width="3" transform="rotate(90)" />
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#000" stroke-width="3" transform="rotate(150)" />
+    
+    <!-- 3D Effect for Orbits -->
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#fff" stroke-opacity="0.2" stroke-width="3" transform="rotate(30)" />
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#fff" stroke-opacity="0.2" stroke-width="3" transform="rotate(90)" />
+    <ellipse cx="0" cy="0" rx="30" ry="10" fill="none" stroke="#fff" stroke-opacity="0.2" stroke-width="3" transform="rotate(150)" />
+  </g>
+</svg>

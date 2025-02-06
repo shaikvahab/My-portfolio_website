@@ -42,10 +42,10 @@ const ContactDetail = () => {
           {/* Social Links */}
           <h3 className="text-xl font-semibold text-green-600 mt-6 mb-4">Social Media</h3>
           <div className="flex space-x-5">
-            <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800 hover:text-gray-600 transition">
+            <a href="https://github.com/shaikvahab" target="_blank" rel="noopener noreferrer" className="text-3xl text-gray-800 hover:text-gray-600 transition">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600 hover:text-blue-400 transition">
+            <a href="https://www.linkedin.com/in/shaik-khaja-vahab-799277213/" target="_blank" rel="noopener noreferrer" className="text-3xl text-blue-600 hover:text-blue-400 transition">
               <FaLinkedin />
             </a>
             <a href="https://www.instagram.com/developer_dump" target="_blank" rel="noopener noreferrer" className="text-3xl text-pink-500 hover:text-pink-400 transition">

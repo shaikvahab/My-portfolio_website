@@ -18,9 +18,17 @@ const projects = [
   {
     title: "To-do list app (listify)",
     description:
-      "This portfolio website showcases my projects, skills, and experiences with a sleek and interactive design.",
+      "This task manager website app showcases my projects, skills, and experiences with a sleek and interactive design.",
     image: `${import.meta.env.BASE_URL}/images/project3.png`,
     github: "https://github.com/shaikvahab/Listify---Responsive-Todo-List-App-Description-.git",
+  },
+
+  {
+    title: "Portfolio website",
+    description:
+      "This portfolio website showcases my projects, skills, and experiences with a sleek and interactive design.",
+    image: `${import.meta.env.BASE_URL}/images/project4.png`,
+    github: "https://github.com/shaikvahab/My-portfolio_website.git",
   },
 ];
 

@@ -24,6 +24,13 @@ const Home = () => {
             description: "A productivity tool for tracking daily tasks and deadlines.",
             image: `${import.meta.env.BASE_URL}/images/project3.png`,
         },
+
+        {
+            id: 4,
+            title: "My Portfolio_website",
+            description: "A portfolio website to showcase the skills and work.",
+            image: `${import.meta.env.BASE_URL}/images/project4.png`,
+        },
     ];
 
     const handleContactClick = () => {
@@ -58,7 +65,7 @@ const Home = () => {
                         React-Developer with a strong background in managing design projects across multiple platforms, including
                         web, iOS, and Android. Proficient in the full design lifecycle, from ideation and wireframing to prototyping and
                         implementation. Skilled in developing and maintaining high-quality, scalable front-end applications using
-                        JavaScript, HTML5, CSS3, tailwindCss and frameworks like React.js.                    </p>
+                        JavaScript, HTML5, CSS3, tailwindCss and frameworks like React.js.Along with that a high level understanding of backend related to technologies like node.js, express, and ejs templete engine and express app routing. And also databases like mongoDB and sql using postGer.        </p>
                     <div className="mt-6 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
                         <button onClick={handleContactClick} className="px-5 py-3 bg-green-600 text-white rounded-lg text-lg transition-transform duration-300 hover:scale-105">
                             Contact Me
@@ -72,7 +79,7 @@ const Home = () => {
                 {/* Right Image */}
                 <div className="relative w-72 h-72 md:w-96 md:h-96 group mt-10 md:mt-0">
                     <img
-                       src={`${import.meta.env.BASE_URL}/images/profile.jpg`} 
+                        src={`${import.meta.env.BASE_URL}/images/profile.jpg`}
                         alt="Profile"
                         className="w-full h-full object-cover rounded-xl shadow-lg transition-all duration-500 transform group-hover:scale-105 group-hover:rotate-3"
                     />
