@@ -5,18 +5,18 @@ import { useNavigate } from "react-router-dom";
 const ContactDetail = () => {
 
 
-    const navigate = useNavigate();  
+  const navigate = useNavigate();
 
-    const handleLogoClick = () => {
-        navigate("/");  // Navigate to the homepage when clicking on the logo
-    };
+  const handleLogoClick = () => {
+    navigate("/");  // Navigate to the homepage when clicking on the logo
+  };
 
 
 
   return (
     <section className="py-32 px-10 bg-gray-50">
       <h2 className="text-4xl font-bold text-center text-gray-900 mb-10">Get in Touch</h2>
-      
+
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left: Contact Details */}
         <div className="bg-white shadow-md rounded-lg p-8 transition-transform duration-300 hover:scale-105">
@@ -25,7 +25,7 @@ const ContactDetail = () => {
           <div className="flex items-center mb-4">
             <FaEnvelope className="text-red-500 text-2xl mr-4" />
             <a href="/ContactDetails" className="text-gray-700 text-lg hover:text-green-600">
-            skkhajavahab@gmail.com
+              skkhajavahab@gmail.com
             </a>
           </div>
 
@@ -56,9 +56,9 @@ const ContactDetail = () => {
 
         {/* Right: Profile Image */}
         <div className="relative w-full h-full flex justify-center">
-          <img 
-            src="/profile.jpg" 
-            alt="Profile" 
+          <img
+            src={`${import.meta.env.BASE_URL}/images/profile.jpg`}
+            alt="Profile"
             className="w-80 h-80 object-cover rounded-xl shadow-lg transition-transform duration-500 hover:scale-105"
           />
         </div>

@@ -7,7 +7,7 @@ const About = () => {
         {/* Left Section - Profile & Bio */}
         <div className="relative w-full md:w-1/2">
           <img
-            src="/profile.jpg" // Replace with your actual image path
+            src={`${import.meta.env.BASE_URL}/images/profile.jpg`}
             alt="Profile"
             className="rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />

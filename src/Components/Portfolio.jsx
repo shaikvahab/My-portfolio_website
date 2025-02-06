@@ -5,21 +5,21 @@ const projects = [
     title: "Spotify clone web music player",
     description:
       "A React-based movie browser application using TMDB API. It allows users to search, filter, and view details of movies interactively.",
-    image: "/project2.png", // Update with correct image path
+    image: `${import.meta.env.BASE_URL}/images/project2.png`,
     github: "https://github.com/shaikvahab/Spotify-Clone.git",
   },
   {
     title: "E-Commerce Beauty Web App",
     description:
       "A modern e-commerce UI built using React and Tailwind, featuring product categories, a checkout page, and animated transitions.",
-    image: "/project1.png",
+    image: `${import.meta.env.BASE_URL}/images/project1.png`,
     github: "https://github.com/shaikvahab/Glamify---Beauty-E-Commerce-Web-Application-.git",
   },
   {
     title: "To-do list app (listify)",
     description:
       "This portfolio website showcases my projects, skills, and experiences with a sleek and interactive design.",
-    image: "/project3.png",
+    image: `${import.meta.env.BASE_URL}/images/project3.png`,
     github: "https://github.com/shaikvahab/Listify---Responsive-Todo-List-App-Description-.git",
   },
 ];

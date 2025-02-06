@@ -10,19 +10,19 @@ const Home = () => {
             id: 1,
             title: "E-Commerce Website",
             description: "A full-fledged e-commerce platform with secure payment integration.",
-            image: "/project1.png",
+            image: `${import.meta.env.BASE_URL}/images/project1.png`,
         },
         {
             id: 2,
             title: "Spotify music-palyer app",
             description: "A Clone to actual spotify web-player built using Html, Css, Java script.",
-            image: "/project2.png",
+            image: `${import.meta.env.BASE_URL}/images/project2.png`,
         },
         {
             id: 3,
             title: "Task Management App",
             description: "A productivity tool for tracking daily tasks and deadlines.",
-            image: "/project3.png",
+            image: `${import.meta.env.BASE_URL}/images/project3.png`,
         },
     ];
 
@@ -72,7 +72,7 @@ const Home = () => {
                 {/* Right Image */}
                 <div className="relative w-72 h-72 md:w-96 md:h-96 group mt-10 md:mt-0">
                     <img
-                        src="/profile.jpg"
+                       src={`${import.meta.env.BASE_URL}/images/profile.jpg`} 
                         alt="Profile"
                         className="w-full h-full object-cover rounded-xl shadow-lg transition-all duration-500 transform group-hover:scale-105 group-hover:rotate-3"
                     />
