@@ -1,25 +1,15 @@
 import React from "react";
 import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
-  const navigate = useNavigate();
-
-  const handleContactClick = () => {
-    navigate("/ContactDetails");  // Navigate to the homepage when clicking on the contact
-  };
-
-  const handleAboutClick = () => {
-    navigate("/About");  // Navigate to the homepage when clicking on the contact
-  };
-
-  const handleProjectsClick = () => {
-    navigate("/Portfolio");  // Navigate to the homepage when clicking on the contact
+  const handleNavigation = (path) => {
+    window.location.href = `#${path}`; // ✅ Uses hash-based routing for GitHub Pages
   };
 
  
   return (
-    <footer className="bg-gray-900 text-white py-10 w-full">
+    <footer className="bg-gray-900 text-white py-10 w-full cursor-pointer ">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 text-center md:text-left">
           {/* Left Section - Brand Info */}
@@ -31,17 +21,17 @@ const Footer = () => {
           </div>
 
           {/* Middle Section - Quick Links */}
-          <div>
+          <div >
             <h3 className="text-xl font-semibold text-green-500">Quick Links</h3>
-            <ul className="mt-4 space-y-2 ">
+            <ul className="mt-4 space-y-2">
               <li className="hover:text-green-400 transition">
-                <a onClick={handleAboutClick} href="/About">About</a>
+                <a  onClick={() => handleNavigation("/About")}>About</a>
               </li>
               <li className="hover:text-green-400 transition">
-                <a  onClick = { handleProjectsClick} href="/Portfolio">Projects</a>
+                <a onClick={() => handleNavigation("/Portfolio")}>Projects</a>
               </li>
-              <li  className="hover:text-green-400 transition">
-                <a onClick={handleContactClick} href="/ContactDetails">Contact</a>
+              <li className="hover:text-green-400 transition">
+                <a onClick={() => handleNavigation("/ContactDetails")}>Contact</a>
               </li>
             </ul>
           </div>
