@@ -20,7 +20,7 @@ const About = () => {
             React-Developer with a strong background in managing design projects across multiple platforms, including
             web, iOS, and Android. Proficient in the full design lifecycle, from ideation and wireframing to prototyping and
             implementation. Skilled in developing and maintaining high-quality, scalable front-end applications using
-            JavaScript, HTML5, CSS3, tailwindCss and frameworks like React.js.
+            JavaScript, HTML5, CSS3, tailwindCss and frameworks like React.js.Along with that a high level understanding of backend related to technologies like node.js, express, and ejs templete engine and express app routing. And also databases like mongoDB and sql using postGer.
           </p>
         </div>
       </div>
@@ -31,11 +31,15 @@ const About = () => {
         <div className="mt-6 space-y-4">
           <div className="bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
             <h3 className="text-xl font-semibold">Bachelor of Technology</h3>
-            <p className="text-gray-400">GITAM University, 2019 - 2023</p>
+            <p className="text-gray-400">GITAM University, 2019 - 2023
+              CGPA :- 7.61
+            </p>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
             <h3 className="text-xl font-semibold">UX Designer / UI Developer </h3>
-            <p className="text-gray-400">Design Boat UX/UI School, 2023 - 2024</p>
+            <p className="text-gray-400">Design Boat UX/UI School, 2023 - 2024
+              Grade :- A
+            </p>
           </div>
         </div>
       </div>
@@ -45,7 +49,7 @@ const About = () => {
         <h2 className="text-3xl font-bold text-green-400 text-center">Hobbies & Activities</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6">
           <div className="bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
-            <p className="text-gray-400">📸 Photography</p>
+            <p className="text-gray-400">📚 Reading books</p>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
             <p className="text-gray-400">🖥️ Coding</p>
@@ -54,7 +58,7 @@ const About = () => {
             <p className="text-gray-400">🎵 Music</p>
           </div>
           <div className="bg-gray-800 p-4 rounded-lg hover:scale-105 transition-transform">
-            <p className="text-gray-400">✈️ Traveling</p>
+            <p className="text-gray-400">🎮 Gaming</p>
           </div>
         </div>
       </div>
